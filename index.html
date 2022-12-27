@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Asset Calculator</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>ASSET CALCULATOR</h1>
+    </header>
+    <main>
+        <form>
+            <label for="income">MONTHLY INCOME</label>
+            <br>
+            <input id="income" type="number" placeholder="1234..." required autocomplete="on">
+            <br>
+            <label for="rent">RENT</label>
+            <br>
+            <input id="rent" type="number" placeholder="1234..." required autocomplete="on">
+            <br>
+            <label for="grocery">GROCERIES</label>
+            <br>
+            <input id="grocery" type="number" placeholder="1234..." required autocomplete="on">
+            <br>
+            <label for="bill">BILLS</label>
+            <br>
+            <input id="bill" type="number" placeholder="1234..." required autocomplete="on">
+            <br>
+            <label for="item">NEW ASSET</label>
+            <br>
+            <input id="item" type="number" placeholder="1234..." required autocomplete="on">
+            <br>
+            <button id="button" onclick="displayAnalysis()">CALCULATE</button>
+        </form>
+    </main>
+    <footer>
+        <article>
+            <p id="analysis"></p>
+        </article>
+    </footer>
+</body>
+</html>
